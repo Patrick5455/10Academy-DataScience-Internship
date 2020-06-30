@@ -1,0 +1,2 @@
+please find and an example twitter data of 1000 raws filtered to contain the following keywords
+TweetKeywords are:  [‘covid19’, ‘#COVID19Africa’]
