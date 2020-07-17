@@ -37,7 +37,7 @@ Flask-Security-Too==3.4.2
 Flask-SQLAlchemy==2.1
 Flask-WTF==0.14.2
 html5lib==1.0.1
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.6
 importlib-metadata==1.5.0
 ipykernel==5.1.4
