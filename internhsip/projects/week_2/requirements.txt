@@ -7,6 +7,8 @@ chardet==3.0.4
 constantly==15.1.0
 cryptography==3.0
 cssselect==1.1.0
+google-search==1.0.2
+google-search-results==1.8.3
 hyperlink==19.0.0
 idna==2.10
 incremental==17.5.0
