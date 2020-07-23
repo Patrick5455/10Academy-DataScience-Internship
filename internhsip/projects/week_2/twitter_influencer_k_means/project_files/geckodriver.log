@@ -1,0 +1,67 @@
+1595502742334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB268gk"
+1595502746875	Marionette	INFO	Listening on port 35081
+1595502746965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1595505060683	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript warning: https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js, line 12: Script terminated by timeout at:
+m/<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:112285
+s/this.getTextElement@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:408:411055
+s/this.renderLabels@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:408:412293
+value@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:408:408995
+wi@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:63138
+Ci@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:62933
+Ri@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:66780
+Ha@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:90878
+Ya@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:91260
+ws@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:98147
+Ts@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:97529
+Es@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:96548
+Za@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:95422
+enqueueSetState@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:196:44806
+E.prototype.setState@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:183:1667
+t.default/</c</u.onStateChange@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:204095
+notify@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:2854
+i</t.notifyNestedSubs@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:2490
+t.default/</c</u.onStateChange@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:204113
+notify@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:2854
+i</t.notifyNestedSubs@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:2490
+t.default/</c</u.onStateChange@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:204113
+_@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:206231
+e.exports/</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:205656
+e.exports/</</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:208854
+e.exports/</</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:209330
+e.exports/</</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:256452
+p/</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:229853
+d/</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:221083
+t.default/</</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:13335
+r/</</<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:873:233088
+dispatch@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:8981
+value/<@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:99:271335
+f</t.prototype.__tryOrUnsub@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:164443
+f</t.prototype.next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:163566
+l</t.prototype._next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:162603
+l</t.prototype.next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:162274
+a</t.prototype._next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:539987
+l</t.prototype.next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:162274
+a</t.prototype._next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:76:48651
+l</t.prototype.next@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:12:162274
+u</t.prototype.closeContext@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:39751
+l@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:293:39903
+o</t.prototype._execute@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:76:169289
+o</t.prototype.execute@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:76:169105
+i</t.prototype.flush@https://cdn.socialbakers.com/suite/dc71/dist/2d7b6a51ff5b652b45ee/app.js:76:170596
+
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:587:5\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:587:5)", "resource://devtools/shared/protocol/Front.js", 323))
+1595505673669	Marionette	INFO	Stopped listening on port 35081
+1595505680565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLXYouS"
+1595505685046	Marionette	INFO	Listening on port 32849
+1595505685099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.socialbakers.com"
