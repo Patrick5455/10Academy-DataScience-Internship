@@ -450,3 +450,25 @@ console.error: "Store does not have a valid reducer. Make sure the argument pass
 1595557400565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletqHS2A"
 1595557410790	Marionette	INFO	Listening on port 43357
 1595557410817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595558455077	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN5IAvH"
+1595558463507	Marionette	INFO	Listening on port 37709
+1595558463601	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.socialbakers.com/www/static/build.126491220/www/media/js/dist/vendor/require.js, line 7: Error: Script error for: load
+http://requirejs.org/docs/errors.html#scripterror
+1595558472457	Marionette	INFO	Stopped listening on port 37709
+1595558500380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile98Xohr"
+1595558504200	Marionette	INFO	Listening on port 41065
+1595558504298	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595558574000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejqEyqB"
+1595558581701	Marionette	INFO	Listening on port 46755
+1595558581730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595558900674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebL0U8B"
+1595558906549	Marionette	INFO	Listening on port 46453
+1595558906595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595559192086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA78hYN"
+1595559251018	Marionette	INFO	Listening on port 32857
+1595559251210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595559992803	Marionette	INFO	Stopped listening on port 41065
+1595559995149	Marionette	INFO	Stopped listening on port 46755
+1595560030009	Marionette	INFO	Stopped listening on port 46453
+1595560079748	Marionette	INFO	Stopped listening on port 32857
