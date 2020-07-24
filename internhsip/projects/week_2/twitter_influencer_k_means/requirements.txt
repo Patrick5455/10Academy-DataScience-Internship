@@ -1,4 +1,5 @@
 alembic==0.9.3.dev0
+appdirs==1.4.4
 apturl==0.5.2
 asn1crypto==0.24.0
 attrs==19.3.0
@@ -29,6 +30,7 @@ distro==1.4.0
 distro-info===0.18ubuntu0.18.04.1
 docopt==0.6.2
 entrypoints==0.3
+fake-useragent==0.1.11
 Flask==0.12.2
 Flask-BabelEx==0.9.3
 Flask-Compress==1.4.0
@@ -94,6 +96,7 @@ pandas==1.0.1
 pandoc==1.0.2
 pandocfilters==1.4.2
 paramiko==2.0.0
+parse==1.15.0
 parsel==1.6.0
 parso==0.6.1
 passlib==1.7.1
@@ -121,6 +124,7 @@ pycparser==2.20
 pycrypto==2.6.1
 pycups==1.9.73
 PyDispatcher==2.0.5
+pyee==7.0.2
 Pygments==2.5.2
 pygobject==3.26.1
 PyHamcrest==2.0.2
@@ -129,6 +133,8 @@ pymacaroons==0.13.0
 PyNaCl==1.1.2
 pyOpenSSL==19.1.0
 pyparsing==2.4.6
+pyppeteer==0.2.2
+pyquery==1.4.1
 pyRFC3339==1.0
 pyrsistent==0.15.7
 PySocks==1.7.1
@@ -145,6 +151,7 @@ queuelib==1.5.0
 regex==2020.6.8
 reportlab==3.4.0
 requests==2.24.0
+requests-html==0.10.0
 requests-oauthlib==1.3.0
 requests-unixsocket==0.1.5
 retrying==1.3.3
@@ -192,6 +199,7 @@ w3lib==1.22.0
 wadllib==1.3.2
 wcwidth==0.1.8
 webencodings==0.5.1
+websockets==8.1
 Werkzeug==0.16.0
 wordcloud==1.7.0
 WTForms==2.1
