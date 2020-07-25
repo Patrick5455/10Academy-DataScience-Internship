@@ -1,5 +1,5 @@
-
-
+import pandas as pd
+from env import api
 def get_tweets(handles):
     cols = ['handle', 'tweet_text', 'tweet_date']
     data = []

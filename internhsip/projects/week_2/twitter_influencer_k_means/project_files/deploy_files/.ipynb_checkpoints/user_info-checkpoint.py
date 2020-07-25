@@ -1,3 +1,4 @@
+from env import api
 def get_user_tweets_info(handles):
     
     cols = ['id', 'name', 'screen_name', 'description', 
@@ -86,7 +87,6 @@ def get_user_tweets_info(handles):
                         favorite_count.append(likes)
                 if status.created_at < end_date:
                     break
-                    
             
             value_list.append(len(hashtags))
             value_list.append(len(mentions))
@@ -101,3 +101,4 @@ def get_user_tweets_info(handles):
             #print(df)
             break
     return df
+# print(api, 'here')
