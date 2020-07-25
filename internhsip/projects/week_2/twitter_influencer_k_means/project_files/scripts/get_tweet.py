@@ -13,3 +13,9 @@ def get_tweets(handles):
             data.append(user_data)
             df = df.append(pd.DataFrame(data)) 
     return df
+
+#run funtion
+tweet_data = get_tweets(handles) 
+# save as csv
+path = os.getcwd()
+tweet_data.drop_duplicates().to_csv(os.path.join(path, "tweet_data.csv"))

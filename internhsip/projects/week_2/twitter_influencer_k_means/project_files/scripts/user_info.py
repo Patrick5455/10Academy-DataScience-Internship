@@ -1,4 +1,5 @@
 from env import api
+import pandas as pd
 def get_user_tweets_info(handles):
     
     cols = ['id', 'name', 'screen_name', 'description', 
@@ -101,4 +102,11 @@ def get_user_tweets_info(handles):
             #print(df)
             break
     return df
-# print(api, 'here')
+
+handles = pd.read_csv('allHandles.csv', index_col=0)
+handles = handles.handles.to_list()
+# run function
+users_info = get_user_tweets_info(handles)
+# save to file
+path = os.getcwd()
+users_info.drop_duplicates().to_csv(os.path.join(path, "users_info.csv"))
